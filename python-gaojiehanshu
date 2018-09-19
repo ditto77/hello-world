@@ -12,3 +12,5 @@ def prod (x,y):
  reduce(prod,[3,5,7,9])
  #reduce和map
  #编写一个函数，使得字符串‘123.45’变为浮点数123.45
+ for l in map(float,'123.45')
+ print(l)
